@@ -8,11 +8,7 @@ sudo yabai --load-sa
 # Layout
 yabai -m config layout bsp
 
-# Padding
-yabai -m config top_padding    8
-yabai -m config bottom_padding 8
-yabai -m config left_padding   8
-yabai -m config right_padding  8
+# Gaps
 yabai -m config window_gap     8
 
 echo "yabai config loaded"
